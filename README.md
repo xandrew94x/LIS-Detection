@@ -15,11 +15,11 @@ In this project has been implemented an algorithm to detect the italian sign lan
 
 Dataset was acquired using a previously created tool: [acqTool](https://github.com/xandrew94x/acqTool)
 
-With _acqTool_ 26 classes were recorded, using alphabet letters of italian sign language. 
+With _acqTool_, 26 classes were recorded, using **LIS** alphabet letters. 
 
 All classes are balanced, with up to **500** items each.
 
-Finally the dataset was normalized using the MinMaxScaler [0,1].
+In the end, the dataset was normalized using the _MinMaxScaler_ [0,1].
 
 _Note: only right hand was used during the acquisition._
 
