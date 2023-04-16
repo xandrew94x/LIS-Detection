@@ -1,5 +1,5 @@
 # LIS-Detection
-In this repository has been implemented an algorithm to identify the italian sign language (LIS - Lingua Italiana dei Segni) through Opencv, Mediapipe Hand Detection and a K-nn classifier.
+In this repository has been implemented an algorithm to identify the italian sign language (LIS - Lingua Italiana dei Segni) through [Opencv](https://opencv.org/), [Mediapipe Hand Detection](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) and a [K-nn classifier](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html).
 
 ## :hammer: Technologies
 
