@@ -23,7 +23,7 @@ _Note: only right hand was used during the acquisition._
 
 Using _sklearn_ the classifier chosen for this project was the **K-NN**.
 
-With balanced classes the resulti are very good: 
+With balanced classes the result is very good: 
 
 ![confusion_matrix_knn](readmeFiles/confusion_matrix_knn.png)
 
