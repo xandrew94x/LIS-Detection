@@ -15,19 +15,27 @@ In this project has been implemented an algorithm to detect the italian sign lan
 
 Dataset was acquired using a previously created tool: [acqTool](https://github.com/xandrew94x/acqTool)
 
-With _acqTool_, 26 classes were recorded, using **LIS** alphabet letters. 
+- **LIS** alphabet letters were recorded (26 classes). 
+- **500** vectors for each classes,
+- Vectors was normalized using the _MinMaxScaler_ [0,1],
+- Each vector is composed by 42 features:
+```math
 
-All classes are balanced, with up to **500** items each.
+V_{i} = (x_{1}, y_{1}, ... , x_{n}, y_{n})
 
-In the end, the dataset was normalized using the _MinMaxScaler_ [0,1].
+```
+where: 
+
+-  <img src="https://render.githubusercontent.com/render/math?math=x_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" /> and <img src="https://render.githubusercontent.com/render/math?math=y_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" /> are the position in pixels, 
+- (<img src="https://render.githubusercontent.com/render/math?math=x_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" />, <img src="https://render.githubusercontent.com/render/math?math=y_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" />) is n-landmark on 2D image.
 
 _Note: only right hand was used during the acquisition._
 
 ## :children_crossing: Classifier
 
-Using _sklearn_ the classifier chosen for this project was the **K-NN**.
+The classifier chosen is **K-NN** ( _sklearn_ ).
 
-With balanced classes the result is very good: 
+Confusion Matrix: 
 
 ![confusion_matrix_knn](readmeFiles/confusion_matrix_knn.png)
 
