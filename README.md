@@ -27,7 +27,7 @@ V_{i} = (x_{1}, y_{1}, ... , x_{n}, y_{n})
 where: 
 
 -  <img src="https://render.githubusercontent.com/render/math?math=x_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" /> and <img src="https://render.githubusercontent.com/render/math?math=y_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" /> are the position in pixels, 
-- (<img src="https://render.githubusercontent.com/render/math?math=x_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" />, <img src="https://render.githubusercontent.com/render/math?math=y_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" />) is n-landmark on 2D image.
+- (<img src="https://render.githubusercontent.com/render/math?math=x_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" />, <img src="https://render.githubusercontent.com/render/math?math=y_{n}" align="center" border="0" alt="x_{n} " width="24" height="15" />) is nth landmark on 2D image.
 
 _Note: only right hand was used during the acquisition._
 
