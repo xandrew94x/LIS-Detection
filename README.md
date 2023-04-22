@@ -11,7 +11,7 @@ In this project has been implemented an algorithm to detect the italian sign lan
 - Sklearn 1.1.2
 - Pickle 4.0
 
-## Install
+## :books: Install
 
 ```
 pip install - pip/requirements.txt
