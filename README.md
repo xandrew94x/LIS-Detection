@@ -5,11 +5,17 @@ In this project has been implemented an algorithm to detect the italian sign lan
 
 ## :hammer: Technologies
 
-- Python 3.8
-- Mediapipe
-- Opencv
-- Sklearn
-- Pickle
+- Python 3.8.13
+- Mediapipe 0.9.2.1
+- Opencv 4.6.0.66
+- Sklearn 1.1.2
+- Pickle 4.0
+
+## Install
+
+```
+pip install - pip/requirements.txt
+```
 
 ## :bar_chart: Dataset
 
